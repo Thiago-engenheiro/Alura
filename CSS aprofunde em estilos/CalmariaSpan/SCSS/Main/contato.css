@@ -1,0 +1,70 @@
+#contatos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 80%;
+  margin: 50px auto;
+  gap: 20px;
+}
+#contatos .contatos-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+#contatos .contatos-form {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  border-radius: 40px;
+  padding: 0em 2em 0em 2em;
+}
+#contatos .contatos-form .titulo {
+  font-weight: 400;
+  font-family: "Krona One", sans-serif;
+  font-size: 2em;
+  text-align: start;
+  color: #4e75ff;
+}
+#contatos .contatos-form .infos {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.625em;
+  text-align: start;
+}
+#contatos .inputs {
+  margin: 10px auto;
+}
+#contatos .inputs .form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 10px;
+}
+#contatos .inputs .form-group .titulo__caixa {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #0C0421;
+  text-align: start;
+}
+#contatos .inputs .form-group .dados__caixa {
+  padding: 1em;
+  width: 500px;
+  border-radius: 40px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+#contatos .inputs .btn {
+  margin: 60px auto;
+  color: white;
+  padding: 1em;
+  background-color: #4e75ff;
+  width: 600px;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375em;
+  text-align: center;
+}/*# sourceMappingURL=contato.css.map */

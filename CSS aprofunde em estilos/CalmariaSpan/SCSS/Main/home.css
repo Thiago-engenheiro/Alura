@@ -1,0 +1,39 @@
+main {
+  margin: 0;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 80%;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+
+.textos-home {
+  color: #0C0421;
+  font-weight: 400;
+  font-family: "Krona One", sans-serif;
+  font-size: 2em;
+}
+
+span {
+  color: #4e75ff;
+}
+
+.btn-main {
+  border-radius: 40px;
+  background-color: #4e75ff;
+  color: #FFFFFF;
+  padding: 24px;
+  font-weight: 600;
+  font-size: 22px;
+  width: 280px;
+  border: none;
+}
+
+.imagem {
+  width: 450px;
+  height: 550px;
+}/*# sourceMappingURL=home.css.map */

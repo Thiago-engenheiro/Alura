@@ -1,0 +1,16 @@
+@use './header/cabecalho.scss';
+@use './Main/home.scss';
+@use './Main/Sobre__local.scss';
+@use './Main/cards.scss';
+@use './Main/desconto.scss';
+@use './Main/contato.scss';
+@use './Main/rodape.scss';
+
+body {
+   
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+

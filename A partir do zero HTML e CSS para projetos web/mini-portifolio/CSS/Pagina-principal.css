@@ -1,0 +1,272 @@
+/*
+
+    Criador: Thiago Abraao
+    Data inicial: 23/12/2022
+    Data final: Ainda sem 
+    Objetivo: Aprendizado montando o primeiro site 
+
+*/
+
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+/* Variaveis globais */
+:root {
+
+    /* estilização */
+    --cor-primaria :   black;
+    --cor-secundaria : #22D4FD;
+    --cor-terciaria :  #f6f6f6;
+
+    --cor-ao-passar-mause : #272727;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+}
+
+/* pagina toda */
+* {
+
+    /* estilização */
+    text-decoration: none;
+
+    /* Posicionamento */
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* cabecalho e principal */
+.todo-conteudo-_cabecalho_principal_-home {
+
+    /* estilização */
+
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+
+}
+
+/* conteudo cabecalho da pagina */
+/* _______________________________________________________________________________________ */
+
+.cabecalho {
+
+    /* Posicionamento */
+
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cebecalho-menu {
+
+    display: flex;
+    gap: 80px;
+
+}
+
+.cebecalho-menu-link {
+
+    /* estilização */
+    font-family: var(--fonte-secundaria);
+    font-size: 1,5rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+
+}
+
+/* conteudo central da pagina */
+/* _______________________________________________________________________________________ */
+
+.Conteudo-principal-com-imagem{
+
+    /* Posicionamento */
+
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.Conteudo-principal {
+
+    /* Posicionamento */
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.Titulo-principal-home {
+
+    /* estilização */
+
+    color:  var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 2.25rem;
+    font-weight: 400;
+
+}
+
+.Destaque-Titulo-principal-home {
+
+    /* estilização */
+    
+    color: var(--cor-secundaria);
+
+}
+
+.Paragrafo-home-01 {
+
+    /* estilização */
+
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+.Destaque-Paragrafo-home-01 {
+
+    /* estilização */
+
+    color: var(--cor-secundaria);
+
+}
+
+.Conteudo-principal-botoes {
+
+     /* Posicionamento */
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.Titulo-secundario-home-botoes {
+
+    /* estilização */
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.Conteudo-principal-botoes-link {
+
+    /* estilização */
+
+    width: 50%;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+    font-weight: 600;
+
+    /* Posicionamento */
+    padding: 21px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px
+    
+}
+
+.Conteudo-principal-botoes-link:hover {
+
+    /* estilização */
+
+    background-color: var(--cor-ao-passar-mause);
+
+}
+
+.Conteudo-principal-foto {
+
+    /* Posicionamento */
+
+    width: 50%;
+
+}    
+
+
+/* conteudo rodape da pagina */
+/* _______________________________________________________________________________________ */
+
+.rodape {
+
+    /* estilização */
+
+    background-color: var(--cor-secundaria);
+    color: black;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    /* Posicionamento */
+    padding: 24px;
+    text-align: center;
+
+}
+
+/* resposividade para celular */
+/* _______________________________________________________________________________________ */
+
+@media (max-width: 1200px ) {
+
+    /* conteudo central da pagina */
+    /* _______________________________________________________________________________________ */
+
+    .cabecalho {
+
+        /* Posicionamento */
+    
+        padding: 8%
+    
+    }
+
+    .cebecalho-menu {
+
+        /* Posicionamento */
+
+        justify-content: center;
+    
+    }
+
+    /* conteudo central da pagina */
+    /* _______________________________________________________________________________________ */
+
+    .Conteudo-principal-com-imagem {
+
+        /* Posicionamento */
+
+        flex-direction: column-reverse;
+        gap: 32px
+
+    }
+
+    .Conteudo-principal-com-imagem{
+
+        /* Posicionamento */
+    
+        padding: 6%;
+        
+    }
+
+    .Conteudo-principal {
+
+        /* Posicionamento */
+    
+        width: auto;
+        
+    }
+
+}

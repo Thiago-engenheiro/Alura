@@ -1,0 +1,45 @@
+#desconto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  text-align: center;
+}
+#desconto h4 {
+  font-weight: 400;
+  font-family: "Krona One", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+#desconto p {
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375em;
+  text-align: center;
+}
+#desconto .input-btn {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+#desconto .input-btn .email__caixa {
+  padding: 1em;
+  width: 500px;
+  border-radius: 40px 0px 0px 40px;
+  border-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+#desconto .input-btn .email__botao {
+  color: white;
+  padding: 1em;
+  background-color: #4e75ff;
+  width: 300px;
+  border-radius: 0px 40px 40px 0px;
+  border: none;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375em;
+  text-align: center;
+}/*# sourceMappingURL=desconto.css.map */

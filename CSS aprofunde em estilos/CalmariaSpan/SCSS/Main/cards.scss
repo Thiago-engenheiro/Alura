@@ -1,0 +1,53 @@
+@use '../Globais/Variavel.scss';
+
+#servico {
+   
+    background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+
+}
+
+.cards {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 2em;
+    padding: 2.5em 20em;
+   
+    .card {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px;
+        gap: 0.5em;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+        padding: 2em;
+        height: 550px;
+
+        .img__card {
+            
+            align-self: center;
+
+        }
+        
+        .card-titulo {
+
+            font-weight: 400;
+            font-family: Variavel.$ft-titulos;
+            font-size: 1.625em;
+            text-align: center;
+
+        }
+
+        .card-texto {
+
+            font-weight: 400;
+            font-family: Variavel.$ft-textos;
+            font-size: 1.375em; 
+            text-align: center;
+
+        }
+
+    }
+
+}

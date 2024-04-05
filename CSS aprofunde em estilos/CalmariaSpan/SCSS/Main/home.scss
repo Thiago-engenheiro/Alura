@@ -1,0 +1,55 @@
+@use '../Globais/Variavel.scss';
+
+main {
+    
+    margin: 0;
+    
+}
+
+#home {
+
+
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-between;
+
+}
+
+.textos-home {
+
+    color: Variavel.$cor-primaria;
+    font-weight: 400;
+    font-family: Variavel.$ft-titulos;
+    font-size: 2.0em; 
+
+}
+
+span {
+
+    color: Variavel.$cor-secundaria;
+
+}
+
+.btn-main {
+    
+    border-radius: 40px;
+    background-color: Variavel.$cor-secundaria;
+    color: #FFFFFF;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    width: 280px;
+    border: none;
+    
+}
+
+
+.imagem {
+    
+    width: 450px;
+    height: 550px;
+    
+}

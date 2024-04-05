@@ -1,0 +1,103 @@
+@use '../Globais/Variavel.scss';
+
+#contatos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+            
+    max-width: 1200px;
+    width: 80%;
+    margin: 50px auto;
+    gap: 20px;
+
+    .contatos-imgs {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+
+    }
+
+    .contatos-form {
+
+        background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+        border-radius: 40px;
+        padding: 0em 2em 0em 2em;
+
+        .titulo {
+
+            font-weight: 400;
+            font-family: Variavel.$ft-titulos;
+            font-size: 2em;
+            text-align: start;
+            color: Variavel.$cor-secundaria;
+
+        }
+    
+        .infos {
+
+            font-weight: 400;
+            font-family: Variavel.$ft-textos;
+            font-size: 1.625em;
+            text-align: start;
+    
+        }
+
+    }
+
+    .inputs {
+
+        margin: 10px auto;
+
+        .form-group {
+
+            display: flex;
+            flex-direction: column;
+            margin: 10px auto;
+            gap: 10px;
+
+            .titulo__caixa  {
+
+                font-weight: 500;
+                font-family: Variavel.$ft-textos;
+                font-size: 1em;
+                color: Variavel.$cor-primaria;
+                text-align: start;
+           
+            }
+        
+            .dados__caixa {
+        
+                    padding: 1em;
+                    width: 500px;
+                    border-radius: 40px;
+                    border: none;
+                    font-family: Variavel.$ft-textos;
+                    font-size: 1em;
+                    font-weight: 400;
+        
+            }
+
+        }
+
+        .btn {
+
+
+            margin: 60px auto;
+            color: white;
+            padding: 1em;
+            background-color: Variavel.$cor-secundaria;
+            width: 600px;
+            border-radius: 40px;
+            border: none;
+            font-weight: 600;
+            font-family: Variavel.$ft-textos;
+            font-size: 1.375em;
+            text-align: center;
+
+        } 
+
+    }
+
+}

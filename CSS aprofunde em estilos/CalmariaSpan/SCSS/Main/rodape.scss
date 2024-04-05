@@ -1,0 +1,13 @@
+@use '../Globais/Variavel.scss';
+
+small {
+   
+            background: Variavel.$cor-quaternaria;
+            padding: 1em;
+            display: flex;
+            font-weight: 400;
+            font-family: Variavel.$ft-textos;
+            font-size: 1.0em;
+            justify-content: center;
+
+}

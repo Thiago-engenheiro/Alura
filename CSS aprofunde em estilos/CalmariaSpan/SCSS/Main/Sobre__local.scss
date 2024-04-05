@@ -1,0 +1,61 @@
+@use '../Globais/Variavel.scss';
+
+#nosso-espaco {
+    
+    margin: 50px auto;
+    max-width: 1200px;
+    width: 80%;
+
+    .detalhes {
+        
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 3em;
+        padding: 2.5em 0em;
+        width: 100%;
+
+        .espaco-textos {
+            
+            max-width: 650px;
+
+            .titulo {
+                
+                color: Variavel.$cor-secundaria;
+                font-weight: 400;
+                font-family: Variavel.$ft-titulos;
+                font-size: 1.93em; 
+
+            }
+
+            .infos {
+                
+                font-weight: 400;
+                font-family: Variavel.$ft-textos;
+                font-size: 1.375em; 
+
+            }
+
+            .separador {
+                
+                width: 100%;
+
+            }
+        }
+
+        .imgs-espaco {
+
+            display: inline-flex;
+            gap: 2em;
+            @extend .espaco-textos;
+
+        }
+
+        &:nth-child(2) {
+
+            flex-direction: row-reverse;
+
+        }
+    }
+}
+

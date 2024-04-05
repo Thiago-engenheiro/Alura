@@ -1,0 +1,43 @@
+@use '../Globais/Variavel.scss';
+
+header {
+   
+    background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+    padding: 2rem;
+
+    .cabecalho {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+
+        .linha {
+
+            border-top: 1px solid black;
+            width: 80%;
+        
+        }
+    
+    }
+
+}
+
+.cabecalho__menu {
+
+    display: inline-flex;
+    list-style-type: none;
+    gap: 2.5rem;
+   
+    
+}
+
+.cabecalho__menu__texto {
+    
+    text-decoration: none;
+    color: Variavel.$cor-primaria;
+    font-weight: 400;
+    font-family: Variavel.$ft-textos;
+    font-size: 1.375em; 
+
+}
