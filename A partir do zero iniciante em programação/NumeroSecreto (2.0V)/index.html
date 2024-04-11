@@ -19,21 +19,19 @@
         <div class="container__conteudo">
             <div class="container__informacoes">
                 <div class="container__texto">
-                    <h1></h1>
+                    <h1 class="titulo"></h1>
                     <p class="texto__paragrafo"></p>
+                    <p class="texto__paragrafo__02"></p>
                 </div>
                 <input type="number" min="1" max="10" class="container__input">
                 <div class="chute container__botoes">
-                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                    <button onclick="verificarChute()" id="iniciar" class="container__botao" >Chutar</button>
+                    <button onclick="NovoJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
             </div>
             <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
         </div>
     </div>
-
-
-
 
     <script src="app.js" defer></script>
 </body>

@@ -90,7 +90,7 @@ body::before {
     gap: 2em;
 }
 
-h1 {
+.titulo {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
     padding-bottom: 3rem;
@@ -104,6 +104,14 @@ button {
 .texto__paragrafo {
     font-size: 32px;
     font-weight: 400;
+}
+
+.texto__paragrafo__02 {
+
+    margin: 20px 0px 0px 0px;
+    font-size: 32px;
+    font-weight: 400;
+
 }
 
 button:disabled {
