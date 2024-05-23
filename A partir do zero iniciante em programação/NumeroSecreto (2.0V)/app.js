@@ -38,7 +38,7 @@ function limparCampo() {
 
 }
 
-function NovoNumeroSecreto() {
+function NovoNumeroSecreto() { 
 
     let numeroMaximo = 100;
     let RetornoNumeroSecreto = Math.floor(Math.random() * numeroMaximo) + 1;
