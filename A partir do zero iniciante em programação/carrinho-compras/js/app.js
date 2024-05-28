@@ -19,7 +19,7 @@ function calcular (Valor) {
 
     });
 
-    Valor.innerHTML = `Total: R$ ${somaProdutos.toFixed(2)}`;
+    Valor.innerHTML = `R$${somaProdutos.toFixed(2)}`;
 
 }
 
@@ -32,7 +32,7 @@ function exibirListaDeCompras (produtos) {
         let exibirListaDeCompras = document.createElement('label');
         exibirListaDeCompras.classList.add('carrinho__produtos__produto');
        
-        exibirListaDeCompras.innerHTML = ` <label class="carrinho__produtos__produto"> Quantidade: <span class="texto-azul"> ${item.quantidade} </span> - Produto: ${item.nome} - Valor individual: <span class="texto-azul"> R$ ${item.preco} </span> </label>`;
+        exibirListaDeCompras.innerHTML = ` <label class="carrinho__produtos__produto"> <span class="texto-azul"> ${item.quantidade}X </span> - ${item.nome} - <span class="texto-azul"> R$ ${item.preco} </span> </label>`;
       
         produtos.appendChild(exibirListaDeCompras);
 
