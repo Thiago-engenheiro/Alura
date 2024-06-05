@@ -23,7 +23,7 @@
 
 ## 🎯 Objetivo:
 
-* Aprendizando para se tornar um deselvolvdor front end
+* Aprendizando para se tornar um desenvolvedor front end
 
 ## link dos sites:
 
