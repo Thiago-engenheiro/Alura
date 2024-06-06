@@ -1,0 +1,22 @@
+.indexCabecalho {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    
+}
+
+@media (min-width: 720px) {
+
+    .indexCabecalho {
+
+        flex-direction: row;
+        height: 72px;
+        
+    
+    }
+
+
+}

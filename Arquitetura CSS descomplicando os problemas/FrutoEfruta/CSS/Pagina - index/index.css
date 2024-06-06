@@ -1,0 +1,72 @@
+/*  importacoes de estilo  */
+/* _______________________________________________________________________________________ */
+
+/*  importacoes de estilo do header  */
+
+@import url("./header/cabecalho/cabecalho.css");
+@import url("./header/cabecalho/logo.css");
+@import url("./header/cabecalho/menu.css");
+
+/*  importacoes de estilo do main  */
+
+@import url("./main/banner/banner.css");
+
+/*  importacoes de estilo do footer */
+
+
+
+/*  importacoes de fontes */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Todo o conteudo da pagina  */
+/* _______________________________________________________________________________________ */
+
+/* Variaveis globais */
+
+:root {
+    
+    /*  cores que serão usadas nos elementos das paginas  */
+    
+    /* --cor-elemento-01: */
+    
+
+    /*  cores que serão usadas apenas nos textos dsa paginas  */
+
+    /* --cor-texto-01: */
+    
+
+  
+    
+    /*  cores que serão usadas nos textos e elementos das paginas  */
+
+    --cor-compartilhada-01: #971c1c; 
+    --cor-compartilhada-02: #8C8888;
+
+    
+    
+    
+    /* fontes  */
+   
+    --fonte-01: "Roboto", sans-serif; 
+    --fonte-02: "Pacifico", cursive;
+
+}
+
+.indexPaginaInteira {
+
+    text-decoration: none;
+    font-family: var(--fonte-01);
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
