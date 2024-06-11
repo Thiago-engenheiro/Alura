@@ -1,0 +1,35 @@
+.indexrodape {
+
+    padding: 2em 0em;
+    width: 100%;
+    background: var(--cor-elemento-02);
+    
+}
+
+.indexRodape__titulo {
+
+    font-family: var(--fonte-01);
+    color: black;
+    text-align: center;
+
+}
+
+@media (min-width: 720px) {
+
+    .indexRodape__titulo {
+
+        font-size: 1.5em;
+    
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+    .indexRodape__titulo {
+
+        font-size: 2em;
+    
+    }
+    
+}

@@ -10,9 +10,13 @@
 /*  importacoes de estilo do main  */
 
 @import url("./main/banner/banner.css");
+@import url("./main/Cards/cads.css");
+@import url("./main/Pessoas/criadores.css");
+@import url("./main/Cards/receita.css");
 
 /*  importacoes de estilo do footer */
 
+@import url("./footer/rodape/index__rodape.css");
 
 
 /*  importacoes de fontes */
@@ -29,7 +33,9 @@
     
     /*  cores que serão usadas nos elementos das paginas  */
     
-    /* --cor-elemento-01: */
+    --cor-elemento-01: #F0F0F0; 
+    --cor-elemento-02: #C4C4C4;
+    
     
 
     /*  cores que serão usadas apenas nos textos dsa paginas  */
@@ -43,6 +49,7 @@
 
     --cor-compartilhada-01: #971c1c; 
     --cor-compartilhada-02: #8C8888;
+    
 
     
     
@@ -62,9 +69,18 @@
 
 }
 
+.overlay {
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5); /* cor preta semi-transparente */
+    display: none; /* inicialmente oculto */
+    z-index: 1000; /* garantir que esteja acima de outros conteúdos */
 
-
+}
 
 
 

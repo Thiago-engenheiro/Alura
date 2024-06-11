@@ -29,7 +29,6 @@
 
 .indexConteudoPrincipal__texto--titulo {
 
-
     color: var(--cor-compartilhada-01);
     font-family: var(--fonte-02);
     font-size: 2rem;
@@ -80,14 +79,14 @@
 
     .indexConteudoPrincipal__banner {
 
-        height: calc(100vh - 72px);
+        height: calc(50vh - 72px);
        
     }
 
     .indexConteudoPrincipal__banner--titulo {
 
         font-size: 5.0625rem;
-        top: 50%;
+        top: 45%;
        
     }
 

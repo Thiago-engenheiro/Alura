@@ -1,0 +1,95 @@
+.indexConteudoPrincipal__cards--receita {
+
+    background: var(--cor-elemento-02);
+    padding: 1.5em;
+    width: 90%;
+    position: fixed;
+    top: 10%;
+    display: none;
+    box-sizing: border-box;
+    z-index: 1001; /* garantir que esteja acima da overlay */
+    
+
+}
+
+.indexConteudoPrincipal__cards--receita--titulo {
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+#divisao {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.indexConteudoPrincipal__cards--receita--botao {
+
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.indexConteudoPrincipal__cards--receita--botao:hover {
+
+   color: var(--cor-compartilhada-01);
+
+}
+
+.indexConteudoPrincipal__cards--receita--linha {
+
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    border-bottom: 2px;
+    margin: 15px 0px;
+
+}
+
+.indexConteudoPrincipal__cards--receita--texto {
+
+    font-size: 1em;
+    margin-top: 10px;
+
+}
+
+@media (min-width: 720px) {
+
+    .indexConteudoPrincipal__cards--receita {
+
+        background: var(--cor-elemento-02);
+        padding: 1.5em;
+        width: 70%;
+        position: fixed;
+        top: 50%;
+        left: 15%;
+    
+    }
+
+    .indexConteudoPrincipal__cards--receita--titulo {
+
+        font-size: 2em;
+        font-weight: bold;
+    
+    }
+
+    .indexConteudoPrincipal__cards--receita--botao {
+       
+        font-size: 2em;
+        cursor: pointer;
+    
+    }
+
+    .indexConteudoPrincipal__cards--receita--texto {
+
+        font-size: 2em;
+    
+    }
+     
+}
+
