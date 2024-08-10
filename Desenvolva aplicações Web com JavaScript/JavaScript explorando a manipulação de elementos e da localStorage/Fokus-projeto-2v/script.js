@@ -15,7 +15,7 @@ musica.loop = true;
 const mostraTempo = document.querySelector ('#timer');
 
 const temporizadorInput = document.querySelector('#start-pause');
-let tempoDecorrido = 1500;
+let tempoDecorrido = 5;
 let intervaloId = null;
 
 const play = new Audio('sons/play.wav');
@@ -84,7 +84,7 @@ function alterarContexto(contexto) {
             texto.innerHTML = ` Otimize sua produtividade,<br>
             <strong class="app__title-strong">mergulhe no que importa.</strong>`
 
-            tempoDecorrido = 1500;
+            tempoDecorrido = 5;
             mostrarTempo()
 
         break;
@@ -123,17 +123,29 @@ function alterarContexto(contexto) {
 
 const temporizador = () => {
 
+
+    tempoDecorrido -= 1
+    mostrarTempo()
+
     if (tempoDecorrido <= 0) {
 
         fim.play()
-        alert ("o tempo do foco acabou !")
-        zerar()
+        alert("O tempo do foco acabou!")
+
+        zerar();
+
+        const focoAtivo = pagina.getAttribute('data-contexto') == 'foco'
+
+        if (focoAtivo) {
+
+            const evento = new CustomEvent('FocoFinalizado')
+            document.dispatchEvent(evento)
+
+        }
+
         return
 
     }
-
-    mostrarTempo()
-    tempoDecorrido -= 1
 
 }
 

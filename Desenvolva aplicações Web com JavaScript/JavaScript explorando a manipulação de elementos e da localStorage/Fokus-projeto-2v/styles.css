@@ -10,10 +10,6 @@
     --fundo-card-concludo: rgba(0, 244, 191, 0.40);
 }
 
-.dropdown-container {
-    position: relative;
-}
-
 [data-contexto="foco"] {
     --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
 }
@@ -236,41 +232,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* fim - toggle */
 
-/* Para Tablets */
-@media (max-width: 1024px) and (min-width: 768px) {
-    .app__section-banner-container {
-        width: 48rem;
-    }
-}
-
-/* Para Celulares */
-@media (max-width: 767px) {
-    .app__section-banner-container {
-        width: 32rem;
-    }
-
-    .app__title {
-        font-size: 2.6rem;
-    }
-
-    .app__card-timer {
-        font-size: 6rem;
-    }
-}
-
-
-:root {
-    --color-primary: #123456;
-    --color-secondary: #FFF;
-    --azul-royal: #144480;
-    --fundo-card-timer: rgba(20, 68, 128, 0.30);
-    --lils: #B872FF;
-    --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
-    --azul-profundo: #01080E;
-    --fundo-card: rgba(255, 255, 255, 0.50);
-    --fundo-card-concludo: rgba(0, 244, 191, 0.40);
-}
-
 /* dropdown */
 .dropdown-container {
     position: relative;
@@ -314,6 +275,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* fim - dropdown */
 
+
+/* Para Tablets */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .app__section-banner-container {
+        width: 48rem;
+    }
+}
+
 /* Para Celulares */
 @media (max-width: 767px) {
     .app__section-banner-container {
@@ -336,6 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 .hidden {
     display: none;
 }
+
 
 .app__section-task-container {
     display: flex;
@@ -540,4 +510,3 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8;
     cursor: not-allowed;
 }
-
