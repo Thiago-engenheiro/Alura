@@ -4,7 +4,7 @@ const api = {
 
     try {
 
-      const resposta = await fetch('http://localhost:5500/pensamentos')
+      const resposta = await fetch('http://localhost:6000/pensamentos')
 
        
       if (!resposta.ok) {
@@ -28,7 +28,7 @@ const api = {
 
     try {
 
-      const resposta = await fetch('http://localhost:5500/pensamentos', {
+      const resposta = await fetch('http://localhost:6000/pensamentos', {
 
         method: "POST",
 
@@ -65,7 +65,7 @@ const api = {
 
     try {
 
-      const resposta = await fetch(`http://localhost:5500/pensamentos/${id}`, {
+      const resposta = await fetch(`http://localhost:6000/pensamentos/${id}`, {
 
         method: "GET",
 
@@ -100,7 +100,7 @@ const api = {
 
     try {
 
-      const resposta = await fetch(`http://localhost:5500/pensamentos/${pensamento.id}`, {
+      const resposta = await fetch(`http://localhost:6000/pensamentos/${pensamento.id}`, {
 
         method: "PUT",
 
@@ -137,7 +137,7 @@ const api = {
 
     try {
   
-      const resposta = await fetch(`http://localhost:5500/pensamentos/${id}`, {
+      const resposta = await fetch(`http://localhost:6000/pensamentos/${id}`, {
   
         method: "DELETE",
   
