@@ -1,0 +1,18 @@
+{
+  "name": "3519-nodejs-vidflow-projeto-base",
+  "version": "1.0.0",
+  "description": "![Imagem de capa do curso. O título é \"3519 - Node.js e terminal\" e o subtítulo é \"Dominando o ambiente de desenvolvimento front-end\".](./thumb.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.15.0",
+    "eslint": "9.15.0",
+    "globals": "^15.12.0",
+    "prettier": "3.3.3"
+  }
+}

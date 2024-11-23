@@ -7,6 +7,10 @@ const ui = {
     document.getElementById("pensamento-id").value = pensamento.id
     document.getElementById("pensamento-conteudo").value = pensamento.conteudo
     document.getElementById("pensamento-autoria").value = pensamento.autoria
+    document.getElementById("pensamento-data").value = pensamento.data.
+    toISOString().split("T")[0]
+    document.getElementById("form-container").scrollIntoView()
+
   },
 
   limparFormulario() {
@@ -67,6 +71,21 @@ const ui = {
     pensamentoAutoria.textContent = pensamento.autoria
     pensamentoAutoria.classList.add("pensamento-autoria")
 
+    var options = {
+
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'UTC'
+
+    }
+    const pensamentoData = document.createElement("div")
+    const dataFormatada = pensamento.data.toLocaleDateString('pt-BR', options)
+    const dataComRegex = dataFormatada.replace(/^(\w)/, (match) => match.toUpperCase())
+    pensamentoData.textContent = dataComRegex
+    pensamentoData.classList.add("pensamento-data")
+
     const botaoEditar = document.createElement("button")
     botaoEditar.classList.add("botao-editar")
     botaoEditar.onclick = () => ui.preencherFormulario(pensamento.id)
@@ -123,9 +142,10 @@ const ui = {
     icones.appendChild(botaoEditar)
     icones.appendChild(botaoExcluir)
 
-    li.appendChild(iconeAspas)
+    li.appendChild(iconeAspas)    
     li.appendChild(pensamentoConteudo)
     li.appendChild(pensamentoAutoria)
+    li.appendChild(pensamentoData)
     li.appendChild(icones)
     listaPensamentos.appendChild(li)
   }
