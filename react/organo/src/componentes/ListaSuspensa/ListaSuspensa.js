@@ -8,7 +8,7 @@ export const ListaSuspensa = (props) => {
 
             <label>{props.label}</label>
 
-            <select onChange = {evento => props.aoAlterado(evento.target.value)} required={props.obrigatorio} defaultValue="" value={props.value}>
+            <select onChange = {evento => props.aoAlterado(evento.target.value)} required={props.obrigatorio} defaultValue="" value={props.valor}>
 
                 <option value="" disabled>
 

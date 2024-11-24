@@ -6,8 +6,6 @@ import { useState } from 'react'
 
 export const Formulario = (props) => {
 
-    const times = ['Programação', 'Front-end', 'Devops', 'UX e Design', 'Mobile', 'Inovação e gestão'] 
-
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
@@ -25,6 +23,10 @@ export const Formulario = (props) => {
 
         })
 
+        setNome ('')
+        setCargo ('')
+        setImagem ('')
+        setTime ('')
     }
 
     return (
@@ -64,7 +66,7 @@ export const Formulario = (props) => {
 
                     obrigatorio={true} 
                     label="Escola" 
-                    itens={times}
+                    itens={props.times}
                     valor={time}
                     aoAlterado = {time => setTime(time)}
 
